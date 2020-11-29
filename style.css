@@ -1,3 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    /* background: url(backgrounds/pc_background.jpg); */
+    background-color: rgb(1, 1, 78);
+}
+
+/* Container Header */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid white;
+}
+
+/* Design Header */
+header {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.header_1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_1 ul {
+    display: flex;
+    margin-left: 30px;
+}
+
+.header_1 ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header_2 {
+    text-align: center;
+    padding: 39px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 80px;
+}
+
+.header_2 h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_2 h1 {
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.header_3 span{
+    color: white;
+}
+
+.header_3 {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header_3 > .login {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.header_3 div{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+/* Icones */
 .icone {
     width: 20px;
 }
