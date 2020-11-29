@@ -19,7 +19,7 @@ body {
     align-items: center;
     font-size: 15px;
     height: 100px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(88, 87, 86, 0.75);
     border-bottom: 1px solid white;
 }
 
@@ -82,8 +82,69 @@ header {
     margin-left: 15px;
     margin-right: 20px;
 }
+/* Sections */
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.Fond_1 {
+    background-image: url(backgrounds/fond.jpg); 
+}
+
+.Fond_2 {
+    background-image: url(backgrounds/blurred-background-coffee-cup-computer-908284-e1551175834552.jpg); 
+}
+
+.Fond_3 {
+    background: white; 
+}
+
+.Fond_4 {
+    background-image: url(backgrounds/fond.jpg); 
+}
+
+.fond1 h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.fond1 span {
+    font-size: 58px;
+    font-style: italic;
+}
+
+.fond2 h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.fond3 span {
+    color: black;
+    font-size: 55px;
+}
+
+.fond3 img {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
 
 /* Icones */
 .icone {
     width: 20px;
+}
+
+.footer_container{
+    display: flex;
+    bottom: 0;
 }
