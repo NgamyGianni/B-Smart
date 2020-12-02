@@ -7,8 +7,6 @@
 body {
     width: 100vw;
     height: 100vh;
-    /* background: url(backgrounds/pc_background.jpg); */
-    background-color: rgb(1, 1, 78);
 }
 
 /* Container Header */
@@ -19,7 +17,6 @@ body {
     align-items: center;
     font-size: 15px;
     height: 100px;
-    background-color: rgba(88, 87, 86, 0.75);
     border-bottom: 1px solid white;
 }
 
@@ -27,6 +24,8 @@ body {
 header {
     border-bottom: 2px solid white;
     padding-bottom: 5px;
+    background-attachment: fixed;
+    background-color: rgba(56, 56, 56, 0.349);
 }
 
 .header_1 ul li a {
@@ -99,6 +98,15 @@ section {
 .Fond_1 {
     background-image: url(backgrounds/fond.jpg); 
 }
+.acheter{
+    margin: 20px;
+}
+.acheter button{
+    padding: 10px 45px;
+    background-color: transparent;
+    border: solid 2px white;
+    text-transform: uppercase;
+}
 
 .Fond_2 {
     background-image: url(backgrounds/blurred-background-coffee-cup-computer-908284-e1551175834552.jpg); 
@@ -147,4 +155,83 @@ section {
 .footer_container{
     display: flex;
     bottom: 0;
+    height: 600px;
+    justify-content: space-around;
+    background-color: rgba(56, 56, 56, 0.349);
 }
+/* Design Footer */
+.footer_text{
+    margin: 100px;
+    width: 250px;
+    font-style: italic;
+}
+
+.footer_text > h1 {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.two_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 240px;
+    text-align: justify;
+}
+
+/* Conteneur aide */
+.aide {
+    width: 200px;
+    margin-right: 150px;
+}
+
+/* Assembler le titre de chaque menu à son underline */
+.two_container h1 + .underline{
+    margin-bottom: 30px;
+}
+
+.two_container h1 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Création underline */
+.underline::before {
+    content: "————————————";
+}
+
+.follow {
+    width: 200px;
+}
+/* Espacement et stylisation des menus */
+.two_container ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.two_container ul {
+    padding-bottom: 10px;
+}
+/* Newsletter container */
+.Newsletter {
+    display: flex;
+    align-self: flex-end;
+    transform: translate(-95%,-100%);
+}
+
+/* Customisation Newsletter boxes */
+/* problème avec alignement de saissiez votre mail */
+.Newsletter input {
+    padding: 10px 150px;
+    border: 1px black solid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Newsletter button {
+    margin-left: 10px;
+    padding: 10px 60px;
+    background-color: rgb(82, 80, 80);
+    color: white;
+}
+
+
