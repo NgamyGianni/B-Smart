@@ -93,3 +93,118 @@ header {
 .icone {
     width: 20px;
 }
+
+/* Login page */
+.grand_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Coté connexion */
+.Connexion {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.Connexion > h1 {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.Connexion input {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    height: 30px;
+}
+
+.Connexion input:focus {
+    border: none;
+}
+
+.Connexion span {
+    color:  rgb(0, 204, 255);
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.Connexion button {
+    margin-top: 20px;
+    height: 50px;
+    width: 320px;
+    border-radius: 3px;
+    background-color: rgb(0, 204, 255);
+    border: none;
+    box-shadow: black 2px 2px 2px;
+    color: white;
+}
+
+/* Coté inscription */
+.Inscription {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.Inscription > h1 {
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.statut {
+    margin-top: 20px;
+}
+.statut ul {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 300px;
+}
+
+.Inscription > p {
+    margin-bottom: 20px;
+    width: 500px;
+    line-height: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box input {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    height: 30px;
+}
+
+.mail input {
+    margin-top: 60px;
+    margin-right: 40px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    height: 30px;
+}
+
+button  {
+    margin-top: 50px;
+    height: 50px;
+    width: 550px;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 55);
+    border: none;
+    box-shadow: black 2px 2px 2px;
+    color: white;
+}
+
